@@ -73,6 +73,10 @@ main{
     padding-bottom: 21.5rem;
 }
 
+.bottomcontacto{
+    padding-bottom: 9rem;
+}
+
     /*Main - Article*/
 article{
     background-color: rgb(37, 37, 63);
@@ -167,6 +171,7 @@ button{
     border: none;
     font-weight: bold;
     background-color: red;
+    background: linear-gradient((rgb(255, 123, 0))(rgb(255, 255, 0)));
 }
 
 /*Footer*/
