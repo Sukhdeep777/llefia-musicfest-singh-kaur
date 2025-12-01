@@ -16,7 +16,7 @@ Els fitxers creats amb la seva estructura:
 
 -  /imagenes
 
-    - concert2.jpg
+    - concert2.jpg (Imatge escenari)
 -  /paginas
 
     - cartel.html
