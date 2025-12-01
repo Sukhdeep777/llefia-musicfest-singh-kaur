@@ -171,7 +171,6 @@ button{
     border: none;
     font-weight: bold;
     background-color: red;
-    background: linear-gradient((rgb(255, 123, 0))(rgb(255, 255, 0)));
 }
 
 /*Footer*/
