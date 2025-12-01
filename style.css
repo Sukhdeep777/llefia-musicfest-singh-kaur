@@ -173,6 +173,11 @@ button{
     background-color: red;
 }
 
+button:hover{
+    background-color: orange;
+    cursor: pointer;
+}
+
 /*Footer*/
 footer{
     background-color: rgb(37, 37, 63);
