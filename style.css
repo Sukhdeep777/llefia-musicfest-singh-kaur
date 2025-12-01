@@ -14,7 +14,7 @@ header{
     background-color: rgb(37, 37, 63);
     padding: 10px;
     border-top: 1px solid rgb(255, 255, 0); /*Borde superior de color amarillo*/
-    border-bottom: 1px solid orange /*Borde inferior de color naranja*/;
+    border-bottom: 1px solid rgb(255, 166, 0) /*Borde inferior de color naranja*/;
 }
 
     /*Header - H1*/
@@ -43,7 +43,7 @@ h2{
 }
 
     /*Header - Buttons del menu*/
-a{
+.a{
     text-decoration: none;
     color: #FFFFFF;
     background-color: rgba(128, 128, 128, 0.726);
@@ -54,10 +54,21 @@ a{
 /*Main*/
 main{
     display: flex;
-    justify-content: center;
+    align-items: center;
     padding-top: 30px;
-    padding-bottom: 28.3rem;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 15px;
 }
+
+.bottom-main-index{
+    padding-bottom: 27rem;
+}
+
+.bottommain{
+    padding-bottom: 20px;
+}
+
 
     /*Main - Article*/
 article{
@@ -65,9 +76,25 @@ article{
     border-radius: 16px;
     color: #FFFFFF;
     padding: 20px;
+    width: 887.55px;
 }
 
 article ul{
+    padding: 0;
+    padding-left: 20px;
+    line-height: 1.4rem;
+}
+
+/*Main - Sections*/
+section{
+    background-color: rgb(37, 37, 63);
+    border-radius: 16px;
+    color: #FFFFFF;
+    padding: 20px;
+    width: 887.55px;
+}
+
+section ul{
     padding: 0;
     padding-left: 20px;
     line-height: 1.4rem;
@@ -78,12 +105,39 @@ h3{
     color: rgb(255, 123, 0);
 }
 
+    /*Main - IMG*/
+
+img{
+    width: 887.55px;
+}
+
+    /*Main - Enlaces*/
+
+.enlace{
+    color: rgb(255, 166, 0);
+}
+
+
+    /*Main - Tablas*/
+table, td, th, tr{
+    border: 1px solid #ffffff52;
+    border-collapse: collapse;
+    padding: 5px 3.2rem;
+    text-align: center;
+}
+
+.darkblue{
+    background-color: rgb(1, 2, 39);
+}
+
 /*Footer*/
 footer{
     background-color: rgb(37, 37, 63);
     color: #FFFFFF;
     text-align: center;
+    padding: 10px;
 }
+
 
 /*Flex*/
 .flex{
