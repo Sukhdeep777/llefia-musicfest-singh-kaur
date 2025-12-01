@@ -69,6 +69,9 @@ main{
     padding-bottom: 20px;
 }
 
+.bottommainhorario{
+    padding-bottom: 21.5rem;
+}
 
     /*Main - Article*/
 article{
@@ -128,6 +131,42 @@ table, td, th, tr{
 
 .darkblue{
     background-color: rgb(1, 2, 39);
+}
+
+    /*Main - Formulario*/
+
+.bottomespai{
+    margin-bottom: 10px;
+}
+
+input{
+    background-color: rgb(1, 2, 39);
+    border: 1px solid #ffffff49;
+    padding-right: 43.2rem;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+textarea{
+    background-color: rgb(1, 2, 39);
+    border: 1px solid #ffffff49;
+}
+
+select{
+    background-color: rgb(1, 2, 39);
+    border: 1px solid #ffffff49;
+    padding-right: 48rem;
+    color: #FFFFFF;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+button{
+    padding: 8px 15px;
+    border-radius: 16px;
+    border: none;
+    font-weight: bold;
+    background-color: red;
 }
 
 /*Footer*/

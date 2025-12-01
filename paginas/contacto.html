@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -24,6 +24,67 @@
       </nav>
     </header>   
     <main class="bottommain">
+        <section>
+            <h3>Entradas y contacto</h3>
+            <p>Completa este formulario de ejemplo. En el examen se te pedirá algo muy similar en otra página.</p>
+            <form>
+                <div class="bottomespai">
+                    <div>
+                        <label for="nc">Nombre completo:</label>                        
+                    </div>
+                    <div>
+                        <input type="text" id="nc" placeholder="Escribe tu nombre">    
+                    </div>              
+                </div>
+                <div class="bottomespai">
+                    <div>
+                        <label for="em">Correo electrónico:</label>                        
+                    </div>
+                    <div>
+                        <input type="email" id="em" placeholder="tucorreo@ejemplo.com">    
+                    </div>                    
+                </div>
+                <div class="bottomespai">
+                    <div>
+                        <label>Tipo de entrada:</label>
+                    </div>
+                    <div>
+                        <select>
+                            <option value="1día">Pase 1 dia</option>
+                            <option value="3días">Pase 3 días</option>
+                            <option value="VIP">Entrada VIP</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="bottomespai">
+                    <div>
+                        <label>¿Quieres recibir el boletín del festival?</label>
+                    </div>
+                    <div>
+                        <div>
+                            <input type="radio" name="boletin[]"  id="si">Sí, quiero novedades y playlists                            
+                        </div>
+                        <div>
+                            <input type="radio" name="boletin[]" id="no">No, prefiero no recibir correos                            
+                        </div>
+                    </div>
+                </div>
+                <div class="bottomespai">
+                    <div>
+                        <label for="mensaje">Mensaje</label>
+                    </div>
+                    <div>
+                        <textarea name="mensaje" id="mensaje" rows="4" cols="115" placeholder="Dudas sobre horarios, accesos, grupos…"></textarea>
+                    </div>
+                </div>
+                <div class="bottomespai">
+                    <input type="checkbox" name="checkbox" required> Acepto la política de privacidad.
+                </div>
+                <div class="bottomespai">
+                    <button type="submit">Enviar solicitud</button>
+                </div>
+            </form>
+        </section>
     </main>
     <footer>
         <p>© 2025 - Llefià Music Fest</p>
